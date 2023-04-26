@@ -10,4 +10,4 @@ WORKDIR /app
 
 RUN cargo install --locked --git https://github.com/venom-blockchain/stvenom-node-tools
 
-ENTRYPOINT ["/app/.cargo/bin/stvenom"]
+ENTRYPOINT ["nodekeeper"]
